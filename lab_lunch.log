@@ -1,5 +1,6 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.12.18)  18 OCT 2016 10:54
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.12.18)  21 OCT 2016 08:55
 entering extended mode
+ \write18 enabled.
  %&-line parsing enabled.
 **lab_lunch.tex
 (./lab_lunch.tex
@@ -715,13 +716,11 @@ Package: epstopdf-base 2009/10/17 v2.4 Base part for package epstopdf
 (/usr/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
 Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
 )
-
-Package epstopdf Warning: Shell escape feature is not enabled.
-
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 433.
+
 (/usr/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2009/10/26 v1.1 Configuration of epstopdf for TeX Live
 )))
@@ -731,53 +730,51 @@ Package bigints Info: This is Bigints by Merciadri Luca. on input line 5.
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 109.
+(hyperref)                removing `\\' on input line 111.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 109.
+(hyperref)                removing `\new@ifnextchar' on input line 111.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\medskipamount' on input line 109.
+(hyperref)                removing `\medskipamount' on input line 111.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 129.
+LaTeX Font Info:    Try loading font information for U+msa on input line 131.
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 129.
+LaTeX Font Info:    Try loading font information for U+msb on input line 131.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-<../../image_lib/uob.png, id=9, 889.3225pt x 256.96pt>
-File: ../../image_lib/uob.png Graphic file (type png)
-
-<use ../../image_lib/uob.png>
-<../../image_lib/nerc.png, id=11, 196.5744pt x 137.313pt>
-File: ../../image_lib/nerc.png Graphic file (type png)
-
-<use ../../image_lib/nerc.png>
+<uob.png, id=9, 889.3225pt x 256.96pt>
+File: uob.png Graphic file (type png)
+ <use uob.png>
+<nerc.png, id=11, 196.5744pt x 137.313pt>
+File: nerc.png Graphic file (type png)
+ <use nerc.png>
 <DAMTP_logo.png, id=12, 183.5658pt x 67.33154pt>
 File: DAMTP_logo.png Graphic file (type png)
  <use DAMTP_logo.png>
 (./lab_lunch.aux)
 \openout1 = `lab_lunch.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
 
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -833,7 +830,7 @@ driver: pdftex
 \MPnumerator=\count162
 \everyMPtoPDFconversion=\toks42
 ) ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring OFF on input line 155.
+Package hyperref Info: Link coloring OFF on input line 157.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -843,8 +840,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count163
 )
-LaTeX Info: Redefining \ref on input line 155.
-LaTeX Info: Redefining \pageref on input line 155.
+LaTeX Info: Redefining \ref on input line 157.
+LaTeX Info: Redefining \pageref on input line 157.
  (./lab_lunch.out)
 (./lab_lunch.out)
 \@outlinefile=\write5
@@ -852,47 +849,47 @@ LaTeX Info: Redefining \pageref on input line 155.
 
 \AtBeginShipoutBox=\box54
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 155.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 157.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 155.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 157.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 155.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 155.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 157.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 155.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 155.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 155.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 157.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 155.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 155.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 155.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 157.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 155.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 155.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 155.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 157.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 155.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 155.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 157.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 155.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 157.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 155.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 155.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 155.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 155.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 155.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 157.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 155.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 157.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -926,59 +923,228 @@ Overfull \vbox (32.77113pt too high) has occurred while \output is active []
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 159.
+(Font)              size <5> substituted on input line 161.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../../image_lib/uob.png> <
-../../image_lib/nerc.png (PNG copy)> <./DAMTP_logo.png (PNG copy)>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./uob.png> <./nerc.png (PN
+G copy)> <./DAMTP_logo.png (PNG copy)>]
 <xenocryst.JPG, id=58, 3998.94pt x 2248.4pt>
 File: xenocryst.JPG Graphic file (type jpg)
  <use xenocryst.JPG>
-<resorbed_xeno.png, id=59, 897.754pt x 770.88pt>
-File: resorbed_xeno.png Graphic file (type png)
- <use resorbed_xeno.png>
+<UN1C_plg1.png, id=59, 4257.9075pt x 4179.615pt>
+File: UN1C_plg1.png Graphic file (type png)
+ <use UN1C_plg1.png>
 <Hiroshima_castle.jpg, id=60, 963.6pt x 722.7pt>
 File: Hiroshima_castle.jpg Graphic file (type jpg)
  <use Hiroshima_castle.jpg>
 <un1(c).JPG, id=61, 3468.96pt x 2312.64pt>
 File: un1(c).JPG Graphic file (type jpg)
  <use un1(c).JPG>
-Overfull \vbox (16.57442pt too high) detected at line 218
+Overfull \vbox (20.24898pt too high) detected at line 220
  []
 
 [2
 
- <./xenocryst.JPG> <./resorbed_xeno.png> <./Hiroshima_castle.jpg> <./un1(c).JPG
->] <../../image_lib/grav_settle.png, id=89, 337.26pt x 218.8175pt>
-File: ../../image_lib/grav_settle.png Graphic file (type png)
+ <./xenocryst.JPG> <./UN1C_plg1.png (PNG copy)> <./Hiroshima_castle.jpg> <./un1
+(c).JPG>] <grav_settle.png, id=88, 337.26pt x 218.8175pt>
+File: grav_settle.png Graphic file (type png)
 
-<use ../../image_lib/grav_settle.png>
-<../../image_lib/physical_formulation(2).png, id=90, 584.1825pt x 371.3875pt>
-File: ../../image_lib/physical_formulation(2).png Graphic file (type png)
+<use grav_settle.png> <austin.png, id=89, 1011.78pt x 984.478pt>
+File: austin.png Graphic file (type png)
 
-<use ../../image_lib/physical_formulation(2).png> [3
+<use austin.png> <Moscow_statue.jpg, id=90, 963.6pt x 722.7pt>
+File: Moscow_statue.jpg Graphic file (type jpg)
 
- <../../image_lib/grav_settle.png> <../../image_lib/physical_formulation(2).png
->]
-<../../image_lib/physical_formulation.png, id=123, 745.78625pt x 218.8175pt>
-File: ../../image_lib/physical_formulation.png Graphic file (type png)
+<use Moscow_statue.jpg>
+<physical_formulation(2).png, id=91, 584.1825pt x 371.3875pt>
+File: physical_formulation(2).png Graphic file (type png)
 
-<use ../../image_lib/physical_formulation.png> [4
+<use physical_formulation(2).png> [3
 
- <../../image_lib/physical_formulation.png>] [5
+ <./grav_settle.png> <./austin.png (PNG copy)> <./Moscow_statue.jpg> <./physica
+l_formulation(2).png>]
+<olivine_xeno.png, id=124, 341.34908pt x 256.01181pt>
+File: olivine_xeno.png Graphic file (type png)
+ <use olivine_xeno.png>
+<grd_var_bse.png, id=125, 1284.8pt x 963.6pt>
+File: grd_var_bse.png Graphic file (type png)
+ <use grd_var_bse.png> [4
+
+ <./olivine_xeno.png> <./grd_var_bse.png (PNG copy)>]
+<physical_formulation.png, id=153, 745.78625pt x 218.8175pt>
+File: physical_formulation.png Graphic file (type png)
+
+<use physical_formulation.png> [5
+
+ <./physical_formulation.png>] [6
 
 ]
-<../../image_lib/tank_labelled.png, id=177, 2881.164pt x 3395.084pt>
-File: ../../image_lib/tank_labelled.png Graphic file (type png)
-
-<use ../../image_lib/tank_labelled.png>
-Overfull \vbox (5.65192pt too high) detected at line 356
+<tank_labelled.png, id=209, 2881.164pt x 3395.084pt>
+File: tank_labelled.png Graphic file (type png)
+ <use tank_labelled.png>
+Overfull \vbox (5.65192pt too high) detected at line 461
  []
 
-[6
+[7
 
- <../../image_lib/tank_labelled.png>]
+ <./tank_labelled.png>] <D24.png, id=239, 1905.1175pt x 702.625pt>
+File: D24.png Graphic file (type png)
+
+<use D24.png> <F42.png, id=240, 743.77875pt x 275.0275pt>
+File: F42.png Graphic file (type png)
+ <use F42.png>
+Overfull \vbox (15.63841pt too high) detected at line 509
+ []
+
+[8
+
+ <./D24.png (PNG copy)> <./F42.png>]
+Package epstopdf Info: Source file: <tail_detail.eps>
+(epstopdf)                    date: 2015-09-11 11:20:22
+(epstopdf)                    size: 309850 bytes
+(epstopdf)             Output file: <tail_detail-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=tail_detail-eps-converted-t
+o.pdf tail_detail.eps>
+(epstopdf)             \includegraphics on input line 524.
+runsystem(epstopdf --outfile=tail_detail-eps-converted-to.pdf tail_detail.eps).
+..executed.
+
+Package epstopdf Info: Result file: <tail_detail-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-21 08:55:10
+(epstopdf)                    size: 58730 bytes.
+
+<tail_detail-eps-converted-to.pdf, id=268, 488.82625pt x 263.98625pt>
+File: tail_detail-eps-converted-to.pdf Graphic file (type pdf)
+
+<use tail_detail-eps-converted-to.pdf>
+Overfull \vbox (4.987pt too high) detected at line 524
+ []
+
+[9
+
+ <./tail_detail-eps-converted-to.pdf>] (./low_re_bo.tex
+\gptboxheight=\skip57
+\gptboxwidth=\skip58
+\gptboxtext=\box55
+Package epstopdf Info: Source file: <low_re_bo.eps>
+(epstopdf)                    date: 2015-08-17 15:20:00
+(epstopdf)                    size: 20431 bytes
+(epstopdf)             Output file: <low_re_bo-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-18 11:17:01
+(epstopdf)                    size: 5251 bytes
+(epstopdf)             Command: <epstopdf --outfile=low_re_bo-eps-converted-to.
+pdf low_re_bo.eps>
+(epstopdf)             \includegraphics on input line 117.
+Package epstopdf Info: Output file is already uptodate.
+
+<low_re_bo-eps-converted-to.pdf, id=298, 361.35pt x 252.945pt>
+File: low_re_bo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use low_re_bo-eps-converted-to.pdf>)
+Overfull \vbox (7.69952pt too high) detected at line 538
+ []
+
+[10
+
+ <./low_re_bo-eps-converted-to.pdf>] (./out_bond_film.tex
+Package epstopdf Info: Source file: <out_bond_film.eps>
+(epstopdf)                    date: 2015-09-11 13:15:13
+(epstopdf)                    size: 22864 bytes
+(epstopdf)             Output file: <out_bond_film-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-18 12:08:35
+(epstopdf)                    size: 5458 bytes
+(epstopdf)             Command: <epstopdf --outfile=out_bond_film-eps-converted
+-to.pdf out_bond_film.eps>
+(epstopdf)             \includegraphics on input line 117.
+Package epstopdf Info: Output file is already uptodate.
+
+<out_bond_film-eps-converted-to.pdf, id=327, 361.35pt x 252.945pt>
+File: out_bond_film-eps-converted-to.pdf Graphic file (type pdf)
+
+<use out_bond_film-eps-converted-to.pdf>) (./out_viscos_rat_film_ift.tex
+Package epstopdf Info: Source file: <out_viscos_rat_film_ift.eps>
+(epstopdf)                    date: 2015-09-11 13:15:13
+(epstopdf)                    size: 22091 bytes
+(epstopdf)             Output file: <out_viscos_rat_film_ift-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-10-18 12:08:35
+(epstopdf)                    size: 5317 bytes
+(epstopdf)             Command: <epstopdf --outfile=out_viscos_rat_film_ift-eps
+-converted-to.pdf out_viscos_rat_film_ift.eps>
+(epstopdf)             \includegraphics on input line 114.
+Package epstopdf Info: Output file is already uptodate.
+
+<out_viscos_rat_film_ift-eps-converted-to.pdf, id=328, 361.35pt x 252.945pt>
+File: out_viscos_rat_film_ift-eps-converted-to.pdf Graphic file (type pdf)
+
+<use out_viscos_rat_film_ift-eps-converted-to.pdf>) (./2D_fit_pretty.tex
+Package epstopdf Info: Source file: <2D_fit_pretty.eps>
+(epstopdf)                    date: 2016-10-18 12:17:14
+(epstopdf)                    size: 21538 bytes
+(epstopdf)             Output file: <2D_fit_pretty-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-18 12:17:38
+(epstopdf)                    size: 4879 bytes
+(epstopdf)             Command: <epstopdf --outfile=2D_fit_pretty-eps-converted
+-to.pdf 2D_fit_pretty.eps>
+(epstopdf)             \includegraphics on input line 109.
+Package epstopdf Info: Output file is already uptodate.
+
+<2D_fit_pretty-eps-converted-to.pdf, id=329, 361.35pt x 252.945pt>
+File: 2D_fit_pretty-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2D_fit_pretty-eps-converted-to.pdf>)
+Overfull \vbox (1.37851pt too high) detected at line 572
+ []
+
+[11
+
+ <./out_bond_film-eps-converted-to.pdf> <./out_viscos_rat_film_ift-eps-converte
+d-to.pdf> <./2D_fit_pretty-eps-converted-to.pdf>] (./out_bond_tail.tex
+Package epstopdf Info: Source file: <out_bond_tail.eps>
+(epstopdf)                    date: 2015-09-11 13:15:13
+(epstopdf)                    size: 24326 bytes
+(epstopdf)             Output file: <out_bond_tail-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-18 12:22:03
+(epstopdf)                    size: 6056 bytes
+(epstopdf)             Command: <epstopdf --outfile=out_bond_tail-eps-converted
+-to.pdf out_bond_tail.eps>
+(epstopdf)             \includegraphics on input line 122.
+Package epstopdf Info: Output file is already uptodate.
+
+<out_bond_tail-eps-converted-to.pdf, id=362, 361.35pt x 252.945pt>
+File: out_bond_tail-eps-converted-to.pdf Graphic file (type pdf)
+
+<use out_bond_tail-eps-converted-to.pdf>) (./out_viscos_rat_tail_ift.tex
+Package epstopdf Info: Source file: <out_viscos_rat_tail_ift.eps>
+(epstopdf)                    date: 2015-09-11 13:15:13
+(epstopdf)                    size: 18740 bytes
+(epstopdf)             Output file: <out_viscos_rat_tail_ift-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-10-18 12:22:03
+(epstopdf)                    size: 3726 bytes
+(epstopdf)             Command: <epstopdf --outfile=out_viscos_rat_tail_ift-eps
+-converted-to.pdf out_viscos_rat_tail_ift.eps>
+(epstopdf)             \includegraphics on input line 115.
+Package epstopdf Info: Output file is already uptodate.
+
+<out_viscos_rat_tail_ift-eps-converted-to.pdf, id=363, 361.35pt x 252.945pt>
+File: out_viscos_rat_tail_ift-eps-converted-to.pdf Graphic file (type pdf)
+
+<use out_viscos_rat_tail_ift-eps-converted-to.pdf>) [12
+
+ <./out_bond_tail-eps-converted-to.pdf> <./out_viscos_rat_tail_ift-eps-converte
+d-to.pdf>]
+<tail_thinning.png, id=394, 486.618pt x 326.018pt>
+File: tail_thinning.png Graphic file (type png)
+ <use tail_thinning.png>
+<tail_rupture.png, id=395, 481.8pt x 312.367pt>
+File: tail_rupture.png Graphic file (type png)
+ <use tail_rupture.png> [13
+
+ <./tail_thinning.png> <./tail_rupture.png>] [14
+
+]
 \tf@nav=\write6
 \openout6 = `lab_lunch.nav'.
 
@@ -995,25 +1161,27 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 16003 strings out of 495061
- 299380 string characters out of 1182620
- 371279 words of memory out of 3000000
- 18732 multiletter control sequences out of 15000+50000
+ 16161 strings out of 495061
+ 301709 string characters out of 1182620
+ 384257 words of memory out of 3000000
+ 18838 multiletter control sequences out of 15000+50000
  14220 words of font info for 53 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 49i,16n,57p,398b,707s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi10.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on lab_lunch.pdf (6 pages, 17644359 bytes).
+ 49i,17n,57p,398b,850s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss8.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/symbols/msam10.pfb>
+Output written on lab_lunch.pdf (14 pages, 33465807 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

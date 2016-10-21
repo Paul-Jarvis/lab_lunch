@@ -89,6 +89,8 @@
 \usepackage{bigints}
 \usepackage{amsmath}
 
+\newcommand\Bo{\mbox{\textit{Bo}}}  % Bond number
+
 \def\Xint#1{\mathchoice
 {\XXint\displaystyle\textstyle{#1}}%
 {\XXint\textstyle\scriptstyle{#1}}%
@@ -126,7 +128,7 @@
   \begin{column}{0.3\paperwidth}
 \vspace{-1cm}
     \begin{figure}
-      $$\includegraphics[width=0.3\paperwidth]{../../image_lib/uob.png}$$
+      $$\includegraphics[width=0.3\paperwidth]{uob.png}$$
     \end{figure}
 
   \end{column}
@@ -134,7 +136,7 @@
   \begin{column}{0.3\paperwidth}
 \vspace{-1cm}
     \begin{figure}
-      $$\includegraphics[width=0.15\paperwidth]{../../image_lib/nerc.png}$$
+      $$\includegraphics[width=0.15\paperwidth]{nerc.png}$$
     \end{figure}
 
   \end{column}
@@ -187,10 +189,10 @@
           $$\includegraphics[width=0.4\paperwidth]{xenocryst.JPG}$$
         \end{figure}
 
-        \vspace{-1cm}
+        \vspace{-1.5cm}
 
         \begin{figure}
-          $$\includegraphics[width=0.4\paperwidth]{resorbed_xeno.png}$$
+          $$\includegraphics[width=0.4\paperwidth]{UN1C_plg1.png}$$
         \end{figure}
 
       \end{column}
@@ -224,17 +226,45 @@
  
     \begin{column}{0.5\paperwidth}
       \centering
+
       \vspace{-1cm}
+
       \begin{figure}
-        $$\includegraphics[width=\textwidth]{../../image_lib/grav_settle.png}$$
+        $$\includegraphics[width=\textwidth]{grav_settle.png}$$
       \end{figure}
+
+      \vspace{-2.4cm}
+
+      \begin{columns}[t]
+
+        \begin{column}{0.5\textwidth}
+
+          \begin{figure}
+            $$\includegraphics[width=0.8\textwidth]{austin.png}$$
+          \end{figure}
+
+          \vspace{-0.7cm}
+
+          \centering \tiny Credit Jon Blundy
+
+        \end{column}
+
+        \begin{column}{0.5\textwidth}
+
+          \begin{figure}
+            $$\includegraphics[width=0.9\textwidth]{Moscow_statue.jpg}$$
+          \end{figure}
+
+        \end{column}
+
+      \end{columns}
 
     \end{column}
 
     \begin{column}{0.5\paperwidth}
       \vspace{-1.5cm}
       \begin{figure}
-        $$\includegraphics[width=0.4\paperwidth]{../../image_lib/physical_formulation(2).png}$$
+        $$\includegraphics[width=0.4\paperwidth]{physical_formulation(2).png}$$
       \end{figure}
       \vspace{-1cm}
       \begin{itemize}
@@ -251,10 +281,52 @@
 \end{frame}
 
 %-----------------------------------------------
+
+\begin{frame}
+  \frametitle{Questions}
+
+  \begin{itemize}
+    \item For what conditions is sinking assciated with entrainment of upper phase fluid? \\
+      ~ Consequences for magma hybridisation
+       \vspace{0.5cm}
+    \item What is the timescale of sinking? \\
+      ~ Important if other timescales matter e.g. solidifcation
+      \vspace{1cm}
+  \end{itemize}
+
+  \vspace{-2.5cm}
+
+  \begin{columns}[t]
+
+    \begin{column}{0.5\paperwidth}
+
+      \begin{figure}
+        $$\includegraphics[width=0.9\textwidth]{olivine_xeno.png}$$
+      \end{figure}
+
+      \vspace{-0.7cm}
+
+      \centering      \tiny Credit: Geoff Kilgour
+    \end{column}
+
+    \begin{column}{0.5\paperwidth}
+
+      \begin{figure}
+        $$\includegraphics[width=0.9\textwidth]{grd_var_bse.png}$$
+      \end{figure}
+
+    \end{column}
+
+  \end{columns}
+\end{frame}
+
+
+%----------------------------------------------
+
 \begin{frame}{Dimensionless Parameters}
 
   \begin{figure}
-    $$\includegraphics[width=0.9\paperwidth]{../../image_lib/physical_formulation.png}$$
+    $$\includegraphics[width=0.9\paperwidth]{physical_formulation.png}$$
   \end{figure}
 
   \begin{columns}[c]
@@ -262,7 +334,7 @@
       \centering
       Bond Number
       \begin{equation}
-        \text{Bo} = \frac{(\rho_{2} - \rho_{1}) g a^{2}}{\sigma} \nonumber
+        \Bo = \frac{(\rho_{2} - \rho_{1}) g a^{2}}{\sigma} \nonumber
       \end{equation}
     \end{column}
 
@@ -287,22 +359,55 @@
 \end{frame}
 
 %-----------------------------------------------
-
 \begin{frame}
-  \frametitle{Questions}
+  \frametitle{Length- and time-scales}
 
-  \begin{itemize}
-    \item For what conditions is sinking assciated with entrainment of upper phase fluid? \\
-      ~ Consequences for magma hybridisation
-       \vspace{1cm}
-    \item What is the timescale of sinking? \\
-      ~ Important if other timescales matter e.g. solidifcation
+  \begin{columns}
+
+    \begin{column}{0.5\paperwidth}
+      \centering
+
+      Capillary length 
+
+      \begin{equation}
+        l_{\text{c}} = \left(\frac{\sigma}{(\rho_{2} - \rho_{1}) g}\right)^{1/2} \nonumber
+      \end{equation}
+
       \vspace{1cm}
-  \end{itemize}
+
+      For $a < l_{\text{c}}$, $\Bo < 1$, expect $\sigma$ to control the interfacial response
+
+      \vspace{1cm}
+
+      For $a < l_{\text{c}}$, $\Bo > 1$, expect density contrast to control the interfacial response
+
+    \end{column}
+
+    \begin{column}{0.5\paperwidth}
+      \centering
+
+      Multiple possible timescales e.g.
+
+      \begin{equation}
+        t = \frac{\eta_{n} l_{\text{c}}}{\sigma}, \quad t = \frac{\eta_{n}}{(\rho_{\text{s}} - \rho_{n}) g a}, \nonumber
+      \end{equation}
+
+      $n = 1,2$
+
+      \vspace{1cm}
+
+      Choose to non-dimensionalise with
+
+      \begin{equation}
+        t_{\text{i}} = \frac{\eta_{1} a}{\sigma} \nonumber
+      \end{equation}
+    \end{column}
+
+  \end{columns}
 
 \end{frame}
 
-%----------------------------------------------
+%-----------------------------------------------
 
 \begin{frame}
   \frametitle{Experiments}
@@ -313,7 +418,7 @@
       \vspace{-1cm}
 
       \begin{figure}
-        $$\includegraphics[width=0.5\paperwidth]{../../image_lib/tank_labelled.png}$$
+        $$\includegraphics[width=0.5\paperwidth]{tank_labelled.png}$$
       \end{figure}
 
     \end{column}
@@ -341,7 +446,7 @@
 
       \vspace{0.5cm}
 
-      $0.1 \leq \text{Bo} \leq 5$ \\
+      $0.1 \leq \Bo \leq 5$ \\
 
       \vspace{0.5cm}
 
@@ -355,6 +460,226 @@
   \end{columns}
 \end{frame}
 
+%-----------------------------------------------
+
+\begin{frame}
+  \frametitle{Modes of Transfer}
+
+  \begin{columns}
+    \begin{column}{0.7\paperwidth}
+      \centering 
+      Tailing Mode
+      \vspace{-0.9cm}
+      \begin{figure}
+        $$\includegraphics[width=0.7\paperwidth]{D24.png}$$
+      \end{figure}
+      \vspace{-0.8cm}
+      Film Drainage Mode
+      \vspace{-0.9cm}
+      \begin{figure}
+        $$\includegraphics[width=0.7\paperwidth]{F42.png}$$
+      \end{figure}
+    \end{column}
+
+    \begin{column}{0.3\paperwidth}
+
+       $ \Bo = 2.39 \pm 0.2$
+
+       \vspace{0.5cm}
+
+       $ D = 3.4777 \pm 0.007$
+
+       \vspace{0.5cm}
+
+       $ \lambda = 3.9 \pm 0.4$
+
+       \vspace{2cm}
+
+       $ \Bo = 4.0 \pm 0.1$
+
+       \vspace{0.5cm}
+
+       $ D = 3.248 \pm 0.005$
+
+       \vspace{0.5cm}
+
+       $ \lambda = 259 \pm 6$
+    \end{column}
+\end{columns}
+\end{frame}
+
+%-----------------------------------------------
+
+\begin{frame}
+\frametitle{The Tailing Mode}
+
+\centering
+$\Bo = 4.30 \pm 0.05 \quad \quad D = 3.22 \pm 0.01 \quad \quad \lambda = 1.65 \pm 0.06$
+
+  \begin{figure}
+    $$\includegraphics[width=\textwidth]{tail_detail.eps}$$
+  \end{figure}
+
+
+\end{frame}
+%----------------------------------------------
+
+\begin{frame}
+  \frametitle{Modes of Transfer}
+
+  \vspace{-1cm}
+
+\begin{figure}
+  \begin{center}
+    \resizebox{\textwidth}{!}{\input{low_re_bo.tex}}
+  \end{center}
+\end{figure}
+
+\end{frame}
+%-----------------------------------------------
+
+\begin{frame}
+  \frametitle{Sinking Timescales - Film Drainage}
+
+  \begin{columns}[t]
+    \begin{column}{0.5\paperwidth}
+      \centering
+      \resizebox{0.9\textwidth}{!}{\input{out_bond_film.tex}}
+
+\vspace{0.5cm}
+
+$\frac{t}{t_{\text{i}}} \sim \Bo^{a} \lambda^{b}$ \\
+\vspace{0.1cm}
+$\ln\left(\frac{t}{t_{\text{i}}}\right) \sim a \ln\Bo + b \ln\lambda$ \\
+\vspace{0.1cm}
+
+2D fitting $\implies a = -0.80 \pm 0.05$ and $b = 0.80 \pm 0.02$ \\
+\vspace{0.1cm}
+
+$\implies  \frac{t}{t_{\text{i}}} \sim \left(\frac{\lambda}{\Bo}\right)^{4/5}$ \\
+    \end{column}
+
+    \begin{column}{0.5\paperwidth}
+      \centering
+      \resizebox{0.9\textwidth}{!}{\input{out_viscos_rat_film_ift.tex}}
+
+      \resizebox{0.9\textwidth}{!}{\input{2D_fit_pretty.tex}}
+
+    \end{column}
+  \end{columns}
+
+
+\end{frame}
+%-----------------------------------------------
+
+\begin{frame}
+  \frametitle{Sinking Timescales - Tailing}
+
+  \begin{columns}[t]
+    \begin{column}{0.5\paperwidth}
+      \centering
+      \resizebox{\textwidth}{!}{\input{out_bond_tail.tex}}
+
+      A power law dependence on Bond number \\
+      \vspace{0.5cm}
+      But exponenent depends on viscosity ratio \\
+      
+    \end{column}
+
+    \begin{column}{0.5\paperwidth}
+      \centering
+      \resizebox{\textwidth}{!}{\input{out_viscos_rat_tail_ift.tex}}
+      
+      \vspace{1cm}
+      $\frac{t}{t_{\text{i}}} \sim \Bo^{a(\lambda)} \lambda^{b}$
+
+      \vspace{1cm}
+
+      Clearly need more data
+    \end{column}
+  \end{columns}
+
+
+\end{frame}
+%-----------------------------------------------
+
+
+\begin{frame}
+  \frametitle{Hypothesis - Two stage sinking}
+
+  \vspace{-0.5cm}
+
+  \begin{columns}[t]
+
+    \begin{column}{0.5\paperwidth}
+
+      \centering
+
+      Tail formation stretching and thinning
+
+      \vspace{-0.5cm}
+
+      \begin{figure}
+        $$\includegraphics[width=0.9\textwidth]{tail_thinning.png}$$
+      \end{figure}
+
+      \vspace{-0.5cm}
+
+      Tail thickness $> l_{\text{c}}$
+
+    \end{column}
+
+    \begin{column}{0.5\paperwidth}
+
+      \centering
+
+      Tail Rupture
+
+      \vspace{-0.5cm}
+
+      \begin{figure}
+        $$\includegraphics[width=0.9\textwidth]{tail_rupture.png}$$
+      \end{figure}
+
+      \vspace{-0.5cm}
+
+      Tail thickness $\sim l_{\text{c}}$
+
+    \end{column}
+
+  \end{columns}
+
+  \vspace{0.5cm}
+
+  Each stage is associated with it's own timescale
+
+  When $Bo \lesssim 1$, $a \lesssim l_{\text{c}}$, sinking timescale dominated by rupture stage
+\end{frame}
+%-----------------------------------------------
+
+\begin{frame}
+  \frametitle{Summary}
+
+  Studied Low Reynolds number settling of spheres through interface between density-stratified, immiscible fluids \\
+
+  \vspace{0.75cm}
+
+  When does entrainment occur?
+  \begin{itemize}
+  \item For $\text{Bo} > 1$ and $\lambda < 30$ passage of sphere entrains fluid from upper phase \\
+  \item As $\text{Bo}$ decreases, value of $\lambda$ at which transition occurs decreases \\
+  \end{itemize}
+
+  \vspace{0.75cm}
+
+  What is the timescale of sinking?
+  \begin{itemize}
+  \item For film drainage $t / t_{\text{i}} \sim (\lambda / \text{Bo})^{4/5}$ \\
+  \item Tailing mode - power law dependence on $\text{Bo}$ but exponent depends on $\lambda$ ? \\
+  \item More data needed, but hypothesise two-stage sinking process \\
+  \end{itemize}
+
+\end{frame}
 %-----------------------------------------------
 
 \end{document}
