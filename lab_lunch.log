@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.12.18)  21 OCT 2016 08:55
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.12.18)  21 OCT 2016 09:28
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -947,81 +947,91 @@ Overfull \vbox (20.24898pt too high) detected at line 220
 [2
 
  <./xenocryst.JPG> <./UN1C_plg1.png (PNG copy)> <./Hiroshima_castle.jpg> <./un1
-(c).JPG>] <grav_settle.png, id=88, 337.26pt x 218.8175pt>
-File: grav_settle.png Graphic file (type png)
+(c).JPG>]
+File: un1(c).JPG Graphic file (type jpg)
+ <use un1(c).JPG> <resorbed_xeno.png, id=88, 897.754pt x 770.88pt>
+File: resorbed_xeno.png Graphic file (type png)
 
-<use grav_settle.png> <austin.png, id=89, 1011.78pt x 984.478pt>
+<use resorbed_xeno.png> <austin.png, id=89, 1011.78pt x 984.478pt>
 File: austin.png Graphic file (type png)
 
-<use austin.png> <Moscow_statue.jpg, id=90, 963.6pt x 722.7pt>
+<use austin.png>
+Overfull \vbox (11.57777pt too high) detected at line 272
+ []
+
+[3
+
+ <./resorbed_xeno.png> <./austin.png (PNG copy)>]
+<grav_settle.png, id=118, 337.26pt x 218.8175pt>
+File: grav_settle.png Graphic file (type png)
+ <use grav_settle.png>
+File: austin.png Graphic file (type png)
+
+<use austin.png> <Moscow_statue.jpg, id=119, 963.6pt x 722.7pt>
 File: Moscow_statue.jpg Graphic file (type jpg)
 
 <use Moscow_statue.jpg>
-<physical_formulation(2).png, id=91, 584.1825pt x 371.3875pt>
+<physical_formulation(2).png, id=120, 584.1825pt x 371.3875pt>
 File: physical_formulation(2).png Graphic file (type png)
 
-<use physical_formulation(2).png> [3
+<use physical_formulation(2).png> [4
 
- <./grav_settle.png> <./austin.png (PNG copy)> <./Moscow_statue.jpg> <./physica
-l_formulation(2).png>]
-<olivine_xeno.png, id=124, 341.34908pt x 256.01181pt>
+ <./grav_settle.png> <./Moscow_statue.jpg> <./physical_formulation(2).png>]
+<olivine_xeno.png, id=153, 341.34908pt x 256.01181pt>
 File: olivine_xeno.png Graphic file (type png)
  <use olivine_xeno.png>
-<grd_var_bse.png, id=125, 1284.8pt x 963.6pt>
+<grd_var_bse.png, id=154, 1284.8pt x 963.6pt>
 File: grd_var_bse.png Graphic file (type png)
- <use grd_var_bse.png> [4
+ <use grd_var_bse.png> [5
 
  <./olivine_xeno.png> <./grd_var_bse.png (PNG copy)>]
-<physical_formulation.png, id=153, 745.78625pt x 218.8175pt>
+<physical_formulation.png, id=182, 745.78625pt x 218.8175pt>
 File: physical_formulation.png Graphic file (type png)
 
-<use physical_formulation.png> [5
+<use physical_formulation.png> [6
 
- <./physical_formulation.png>] [6
+ <./physical_formulation.png>] [7
 
 ]
-<tank_labelled.png, id=209, 2881.164pt x 3395.084pt>
+<tank_labelled.png, id=238, 2881.164pt x 3395.084pt>
 File: tank_labelled.png Graphic file (type png)
  <use tank_labelled.png>
-Overfull \vbox (5.65192pt too high) detected at line 461
- []
-
-[7
-
- <./tank_labelled.png>] <D24.png, id=239, 1905.1175pt x 702.625pt>
-File: D24.png Graphic file (type png)
-
-<use D24.png> <F42.png, id=240, 743.77875pt x 275.0275pt>
-File: F42.png Graphic file (type png)
- <use F42.png>
-Overfull \vbox (15.63841pt too high) detected at line 509
+Overfull \vbox (5.65192pt too high) detected at line 513
  []
 
 [8
+
+ <./tank_labelled.png>] <D24.png, id=267, 1905.1175pt x 702.625pt>
+File: D24.png Graphic file (type png)
+
+<use D24.png> <F42.png, id=268, 743.77875pt x 275.0275pt>
+File: F42.png Graphic file (type png)
+ <use F42.png>
+Overfull \vbox (15.63841pt too high) detected at line 561
+ []
+
+[9
 
  <./D24.png (PNG copy)> <./F42.png>]
 Package epstopdf Info: Source file: <tail_detail.eps>
 (epstopdf)                    date: 2015-09-11 11:20:22
 (epstopdf)                    size: 309850 bytes
 (epstopdf)             Output file: <tail_detail-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-21 08:55:10
+(epstopdf)                    size: 58730 bytes
 (epstopdf)             Command: <epstopdf --outfile=tail_detail-eps-converted-t
 o.pdf tail_detail.eps>
-(epstopdf)             \includegraphics on input line 524.
-runsystem(epstopdf --outfile=tail_detail-eps-converted-to.pdf tail_detail.eps).
-..executed.
+(epstopdf)             \includegraphics on input line 576.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <tail_detail-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-10-21 08:55:10
-(epstopdf)                    size: 58730 bytes.
-
-<tail_detail-eps-converted-to.pdf, id=268, 488.82625pt x 263.98625pt>
+<tail_detail-eps-converted-to.pdf, id=296, 488.82625pt x 263.98625pt>
 File: tail_detail-eps-converted-to.pdf Graphic file (type pdf)
 
 <use tail_detail-eps-converted-to.pdf>
-Overfull \vbox (4.987pt too high) detected at line 524
+Overfull \vbox (4.987pt too high) detected at line 576
  []
 
-[9
+[10
 
  <./tail_detail-eps-converted-to.pdf>] (./low_re_bo.tex
 \gptboxheight=\skip57
@@ -1038,14 +1048,14 @@ pdf low_re_bo.eps>
 (epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
 
-<low_re_bo-eps-converted-to.pdf, id=298, 361.35pt x 252.945pt>
+<low_re_bo-eps-converted-to.pdf, id=326, 361.35pt x 252.945pt>
 File: low_re_bo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use low_re_bo-eps-converted-to.pdf>)
-Overfull \vbox (7.69952pt too high) detected at line 538
+Overfull \vbox (7.69952pt too high) detected at line 590
  []
 
-[10
+[11
 
  <./low_re_bo-eps-converted-to.pdf>] (./out_bond_film.tex
 Package epstopdf Info: Source file: <out_bond_film.eps>
@@ -1059,7 +1069,7 @@ Package epstopdf Info: Source file: <out_bond_film.eps>
 (epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
 
-<out_bond_film-eps-converted-to.pdf, id=327, 361.35pt x 252.945pt>
+<out_bond_film-eps-converted-to.pdf, id=355, 361.35pt x 252.945pt>
 File: out_bond_film-eps-converted-to.pdf Graphic file (type pdf)
 
 <use out_bond_film-eps-converted-to.pdf>) (./out_viscos_rat_film_ift.tex
@@ -1075,7 +1085,7 @@ df>
 (epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
 
-<out_viscos_rat_film_ift-eps-converted-to.pdf, id=328, 361.35pt x 252.945pt>
+<out_viscos_rat_film_ift-eps-converted-to.pdf, id=356, 361.35pt x 252.945pt>
 File: out_viscos_rat_film_ift-eps-converted-to.pdf Graphic file (type pdf)
 
 <use out_viscos_rat_film_ift-eps-converted-to.pdf>) (./2D_fit_pretty.tex
@@ -1090,14 +1100,14 @@ Package epstopdf Info: Source file: <2D_fit_pretty.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<2D_fit_pretty-eps-converted-to.pdf, id=329, 361.35pt x 252.945pt>
+<2D_fit_pretty-eps-converted-to.pdf, id=357, 361.35pt x 252.945pt>
 File: 2D_fit_pretty-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2D_fit_pretty-eps-converted-to.pdf>)
-Overfull \vbox (1.37851pt too high) detected at line 572
+Overfull \vbox (1.37851pt too high) detected at line 624
  []
 
-[11
+[12
 
  <./out_bond_film-eps-converted-to.pdf> <./out_viscos_rat_film_ift-eps-converte
 d-to.pdf> <./2D_fit_pretty-eps-converted-to.pdf>] (./out_bond_tail.tex
@@ -1112,7 +1122,7 @@ Package epstopdf Info: Source file: <out_bond_tail.eps>
 (epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 
-<out_bond_tail-eps-converted-to.pdf, id=362, 361.35pt x 252.945pt>
+<out_bond_tail-eps-converted-to.pdf, id=390, 361.35pt x 252.945pt>
 File: out_bond_tail-eps-converted-to.pdf Graphic file (type pdf)
 
 <use out_bond_tail-eps-converted-to.pdf>) (./out_viscos_rat_tail_ift.tex
@@ -1128,21 +1138,21 @@ df>
 (epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
 
-<out_viscos_rat_tail_ift-eps-converted-to.pdf, id=363, 361.35pt x 252.945pt>
+<out_viscos_rat_tail_ift-eps-converted-to.pdf, id=391, 361.35pt x 252.945pt>
 File: out_viscos_rat_tail_ift-eps-converted-to.pdf Graphic file (type pdf)
 
-<use out_viscos_rat_tail_ift-eps-converted-to.pdf>) [12
+<use out_viscos_rat_tail_ift-eps-converted-to.pdf>) [13
 
  <./out_bond_tail-eps-converted-to.pdf> <./out_viscos_rat_tail_ift-eps-converte
 d-to.pdf>]
-<tail_thinning.png, id=394, 486.618pt x 326.018pt>
+<tail_thinning.png, id=422, 486.618pt x 326.018pt>
 File: tail_thinning.png Graphic file (type png)
  <use tail_thinning.png>
-<tail_rupture.png, id=395, 481.8pt x 312.367pt>
+<tail_rupture.png, id=423, 481.8pt x 312.367pt>
 File: tail_rupture.png Graphic file (type png)
- <use tail_rupture.png> [13
+ <use tail_rupture.png> [14
 
- <./tail_thinning.png> <./tail_rupture.png>] [14
+ <./tail_thinning.png> <./tail_rupture.png>] [15
 
 ]
 \tf@nav=\write6
@@ -1161,13 +1171,13 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 16161 strings out of 495061
- 301709 string characters out of 1182620
+ 16168 strings out of 495061
+ 301832 string characters out of 1182620
  384257 words of memory out of 3000000
- 18838 multiletter control sequences out of 15000+50000
+ 18842 multiletter control sequences out of 15000+50000
  14220 words of font info for 53 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 49i,17n,57p,398b,850s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,17n,57p,398b,890s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/
@@ -1179,9 +1189,9 @@ re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts
 /type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/publi
 c/amsfonts/symbols/msam10.pfb>
-Output written on lab_lunch.pdf (14 pages, 33465807 bytes).
+Output written on lab_lunch.pdf (15 pages, 35982690 bytes).
 PDF statistics:
- 495 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 524 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
